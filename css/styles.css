@@ -79,7 +79,7 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 2px solid;
+  /* outline: 2px solid; */
 }
 
 .header {
@@ -270,7 +270,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  background-color: #f5f4fa;
+  /* background-color: #f5f4fa; */
+  background-color: var(--third-bgc-color);
   border-radius: 4px;
   /* outline: 2px solid; */
 }
@@ -377,8 +378,9 @@ body {
 
 .team-soc-link:hover,
 .team-soc-link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  /* background-color: #2196f3; */
+  background-color: var(--main-accent-color);
+  color: var(--second-btn-bgc-color);
 }
 
 .team-soc-icon {
@@ -421,7 +423,8 @@ body {
 
 .clients-link:hover,
 .clients-link:focus {
-  color: #2196f3;
+  /* color: #2196f3; */
+  color: var(--main-accent-color);
 }
 
 .clients-icon {
@@ -521,7 +524,8 @@ body {
 
 .footer-soc-link:hover,
 .footer-soc-link:focus {
-  background-color: #2196f3;
+  /* background-color: #2196f3; */
+  background-color: var(--main-accent-color);
 }
 
 /*--------------PORTFOLIO: FILTER---------*/
