@@ -325,7 +325,7 @@ body {
 }
 
 .team-item {
-  flex-basis: calc ((100% - 90px) / 4);
+  flex-basis: calc((100% - 90px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -351,19 +351,19 @@ body {
 
 .team-item-wrap {
   padding-top: 30px;
-  padding-bottom: 16px;
+  padding-bottom: 30px;
 }
 
 .team-text {
   font-weight: 400;
   color: var(--main-text-color);
+  margin-bottom: 16px;
 }
 
 .team-soc-list {
   display: flex;
   justify-content: center;
   gap: 10px;
-  padding: 0 32px 30px 32px;
 }
 
 .team-soc-link {
@@ -425,6 +425,7 @@ body {
 .clients-link:focus {
   /* color: #2196f3; */
   color: var(--main-accent-color);
+  border: 1px solid var(--btn-bgc-color);
 }
 
 .clients-icon {
@@ -534,13 +535,12 @@ body {
   display: flex;
   gap: 8px;
   justify-content: center;
-
   margin-bottom: 50px;
 }
 
-.filter-item {
-  flex-basis: calc ((100% - 32px) / 5);
-}
+/* .filter-item {
+  flex-basis:calc((100% - 32px) / 5);
+} */
 
 .portfolio-list {
   display: flex;
@@ -549,15 +549,17 @@ body {
 }
 
 .portfolio-item {
-  flex-basis: calc ((100% - 60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-link {
+  display: block;
   text-decoration: none;
   color: var(--main-text-color);
 }
 
-.portfolio-item:hover {
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
